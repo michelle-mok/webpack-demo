@@ -1,0 +1,14 @@
+$primary: green;
+$secondary: orange;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: blue;
+}
+
+.outside {
+  .inside {
+    color: yellow;
+  }
+}
